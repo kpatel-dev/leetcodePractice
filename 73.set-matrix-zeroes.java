@@ -82,6 +82,7 @@ class Solution {
             for (int j = 0 ; j<matrix[0].length; j++){
                 if (row.contains(i) || col.contains(j)) matrix[i][j]=0;
             }
+        }
     }
 
     //solution 1 O(mxn) time O(mxn) space
